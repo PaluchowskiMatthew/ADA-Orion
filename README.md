@@ -10,7 +10,6 @@ ADA project Orion of team Kepler:
 [Abstract](#Abstract)  
 [Data description](#Data_description)  
 [Feasibility and Risks](#Feasibility) 
-
 [Deliverables](#Deliverables)  
 [Timeplan](#Timeplan)  
 
