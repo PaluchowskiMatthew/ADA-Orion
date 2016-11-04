@@ -9,7 +9,8 @@ ADA project Orion of team Kepler:
 ##### Table of Contents  
 [Abstract](#Abstract)  
 [Data description](#Data_description)  
-[Feasibility and Risks](#Feasibility)
+[Feasibility and Risks](#Feasibility) 
+
 [Deliverables](#Deliverables)  
 [Timeplan](#Timeplan)  
 
@@ -35,6 +36,7 @@ We are aiming to create [Happy food maps](http://goodcitylife.org/happymaps/ "Ha
 
 <a name="Deliverables"/>
 ## Deliverables
+
 * unordered element 1
 * unordered element 2
 * unordered element 3
