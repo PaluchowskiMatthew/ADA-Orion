@@ -20,6 +20,13 @@ We are aiming to create [Happy food maps](http://goodcitylife.org/happymaps/ "Ha
 <a name="Data_description"/>
 ## Data description
 
+Scraped places data from either or a combination of the following APIs:
+
+* Google Maps Places API
+* Factual Places API
+* Foursquare API
+
+
 <a name="Feasibility"/>
 ## Feasibility and Risks
 
@@ -33,18 +40,35 @@ We are aiming to create [Happy food maps](http://goodcitylife.org/happymaps/ "Ha
  
 + The most promissing dataset is owned by Foursquare which is somewhat focused on restaurants and food - it contains various locations with users pictures taken in it. So called venues are geolocated and so are the pictures taken in those venues. It seems that we could 'crawl' [Foursquare's API](https://developer.foursquare.com/docs/venues/search "Foursquare's API") in order to obtain large dataset of restaurants in Switzerland and pictures taken in those restaurants.
 
+
+###3. Data processing risks
+
+###4. Data processing feasibility
+
+###5. Data visualization risks
+
+###6. Data visualization feasibility
+
 <a name="Deliverables"/>
 ## Deliverables
 
-* unordered element 1
-* unordered element 2
-* unordered element 3
+* Scraped places data
+* Processed neighborhood descriptors
+* Visualized neighborhood mappings
 
 <a name="Timeplan"/>
 ## Timeplan
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+1. Data scraping from APIs
+..* Accessing APIs
+..* Parsing data
+..* Storing data for future use
+2. Processing of data to extract descriptive neighborhood characteristics
+⋅⋅* Find representative descriptors
+..* Extract descriptors
+..* Proccess data
+1. Visualization of aggregated data
+⋅⋅* Heatmaps
+..* Aggregation of weighted variables
+..* Mapping of one city to another city
+..* Display on in HTML
+1. Presentation and report of the project
