@@ -59,16 +59,22 @@ Scraped places data from either or a combination of the following APIs:
 <a name="Timeplan"/>
 ## Timeplan
 1. Data scraping from APIs
-- Accessing APIs
-- Parsing data
-- Storing data for future use
+
+	- Accessing APIs
+	- Parsing data
+	- Storing data for future use	
+
 2. Processing of data to extract descriptive neighborhood characteristics
-- Find representative descriptors
-- Extract descriptors
-- Proccess data
+
+	- Find representative descriptors
+	- Extract descriptors
+	- Proccess data	
+
 3. Visualization of aggregated data
-- Heatmaps
-- Aggregation of weighted variables
-- Mapping of one city to another city
-- Display on in HTML
+
+	- Heatmaps
+	- Aggregation of weighted variables
+	- Mapping of one city to another city
+	- Display on in HTML
+
 4. Presentation and report of the project
