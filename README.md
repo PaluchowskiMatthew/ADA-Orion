@@ -22,14 +22,17 @@ Inspired by the talk of Mohamed Kafsi we have picked up their idea of finding ne
 
 Scraped places data from either or a combination of the following APIs:
 
-* [Factual Places API](http://developer.factual.com/api-docs/)
-	We want to use the Factual API to gather information on the location of restaurants, cafees, theatres etc. These will be our main descriptives for an area.
+- [Factual Places API](http://developer.factual.com/api-docs/)
 
-* [Foursquare API](https://developer.foursquare.com/)
-	If we descide to use user recomendations of the restaurants etc., we have concidered Foursquare as a source.
+We want to use the Factual API to gather information on the location of restaurants, cafees, theatres etc. These will be our main descriptives for an area.
+
+- [Foursquare API](https://developer.foursquare.com/)
+
+If we descide to use user recomendations of the restaurants etc., we have concidered Foursquare as a source.
 	
-* [Google Maps/Places API](https://developers.google.com/places/)
-	As a backup plan, we have the Google Places API that does much the same as the factual API. Because of strong regulations on usage, we will try to base our solution on the Factual API.
+- [Google Maps/Places API](https://developers.google.com/places/)
+
+As a backup plan, we have the Google Places API that does much the same as the factual API. Because of strong regulations on usage, we will try to base our solution on the Factual API.
 	
 
 
