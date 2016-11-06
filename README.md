@@ -15,7 +15,7 @@ ADA project Orion of team Kepler:
 
 <a name="Abstract"/>
 ## Abstract
-Inspired by the talk of Mohamed Kafsi, we have picked up their idea of finding neighborhood descriptors in cities. In our project, our goal is to find other descriptive attributes of neighborhoods in a city using location enriched data. For this undertaking, we attempt to scrape places and venue information of a suitable API and store the data for further processing. In a further processing step we target to create a descriptive fingerprint for a neighborhood in order to be able to possibly compare it to a similar neighborhood in a different city.
+Inspired by the talk of Mohamed Kafsi, we have picked up their idea of finding neighborhood descriptors in cities. In our project, our goal is to find other descriptive attributes of neighborhoods in a city using location enriched data. For this undertaking, we attempt to scrape places and venue information of a suitable API and store the data for further processing. In a further processing step we target to create a descriptive fingerprint for a neighborhood in order to be able to possibly compare it to a similar neighborhood in a different city. In essence this should ultimately enable a person having a favorite neighborhood in one city to find its corresponding matching neigborhood in another city. 
 
 <a name="Data_description"/>
 ## Data description
