@@ -64,7 +64,11 @@ Scraped places data from either or a combination of the following APIs:
 
 ### 5. Data visualization risks
 
++ Our visualization is going to include maps, and we have not yet found a good overlay for showing the boundaries for a neighborhood in Switzerland. We hope to be able to use data from OpenStreetMap to this, but might have to find other resources. 
+
 ### 6. Data visualization feasibility
+
++ We have not yet decided on how to visualize the connection between two neighborhoods, but one suggestion is to make the 'user' select one neighborhood he likes, and then show him some kind of heatmap over the compared city.  
 
 <a name="Deliverables"/>
 ## Deliverables
