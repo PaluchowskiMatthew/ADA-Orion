@@ -28,7 +28,7 @@ Scraped places data from either or a combination of the following APIs:
 
 - [Foursquare API](https://developer.foursquare.com/)
 
-	If we descide to use user recomendations of the restaurants etc., we have concidered Foursquare as a source.
+	If we descide to use user recomendations of the restaurants etc., we have considered Foursquare as a source.
 	
 - [Google Maps/Places API](https://developers.google.com/places/)
 
