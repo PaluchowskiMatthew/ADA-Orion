@@ -54,7 +54,13 @@ Scraped places data from either or a combination of the following APIs:
 
 ### 3. Data processing risks
 
++ One possible data processing risk is related to combining multiple data sources into one dataset. It might be challenging in terms of general logistics as well as processing power (datasets might be larger then what we can easily manipulate on one machine).
+
++ Creating meaningful metrics in order to accurately describe and compare neighborhoods might prove to be challenging and there is no real baseline model for verification. We can only do it by ourselves based on our neighborhood knowledge.     
+
 ### 4. Data processing feasibility
+  
++ We are hoping to obtain large enough dataset in order to present valuable insight but small eoungh to manipulate it on single machine.
 
 ### 5. Data visualization risks
 
