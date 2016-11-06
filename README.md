@@ -86,6 +86,6 @@ Scraped places data from either or a combination of the following APIs:
 	- Heatmaps
 	- Aggregation of weighted variables
 	- Mapping of one city to another city
-	- Display on in HTML
+	- Display findings in HTML
 
 4. Presentation and report of the project
