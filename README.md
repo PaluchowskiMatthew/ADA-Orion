@@ -41,25 +41,20 @@ Scraped places data from either or a combination of the following APIs:
 
 ### 1. Data acquisition Risks
 
-- For Google's APIs, there are quite strict regulations on how you are allowed to use the data. Our plant might 
+- It should be noted that common API restrictions and limits regarding the number of request within a certain timeframe possibly affect or at least slow down the data acquisistion progress.
 
-+ Flickr dataset contains only 350k Swiss geolocated pictures and it mostly contains mountains/places/people not food.
-	
-+ By default both Instagram and Facebook strip off EXIF geolocation of image they store in database so this database might proove to be quite useless for our application (but maybe there is some other way of obtaining geolocation of pictures from Instagram? Maybe its directly in schema of dataset?) 
+- For Google's APIs we have already found out that there are quite strict regulations on how you are allowed to use the data. This fact might oblige us to divert the data gatherhing to secondary sources like the other APIs mentioned in the 'Data description' chapter above. 
+
+- Further there is a certain level of uncertainty when it comes to the ability to extract different tags or categories for places or venues within the provided data which might increase the difficulty to properly cluster the scraped data into aggregated descriptors. In order to solve this challenge we have already devised some ideas but a functional prototype is still pending.
  
 ### 2. Data acquisition feasibility
  
 + The most promissing dataset is owned by Foursquare which is somewhat focused on restaurants and food - it contains various locations with users pictures taken in it. So called venues are geolocated and so are the pictures taken in those venues. It seems that we could 'crawl' [Foursquare's API](https://developer.foursquare.com/docs/venues/search "Foursquare's API") in order to obtain large dataset of restaurants in Switzerland and pictures taken in those restaurants.
 
+
 ### 3. Data processing risks
 
-+ One possible data processing risk is related to combining multiple data sources into one dataset. It might be challenging in terms of general logistics as well as processing power (datasets might be larger then what we can easily manipulate on one machine).
-
-+ Creating meaningful metrics in order to accurately describe and compare neighborhoods might prove to be challenging and there is no real baseline model for verification. We can only do it by ourselves based on our neighborhood knowledge. 
-
 ### 4. Data processing feasibility
-
-+ We are hoping to obtain large enough dataset in order to present valuable insight but small eoungh to manipulate it on single machine.
 
 ### 5. Data visualization risks
 
@@ -94,3 +89,10 @@ Scraped places data from either or a combination of the following APIs:
 	- Display findings in HTML
 
 4. Presentation and report of the project
+
+
+## Discarded Research
+
++ Flickr dataset contains only 350k Swiss geolocated pictures and it mostly contains mountains/places/people not food.
+
++ By default both Instagram and Facebook strip off EXIF geolocation of image they store in database so this database might proove to be quite useless for our application (but maybe there is some other way of obtaining geolocation of pictures from Instagram? Maybe its directly in schema of dataset?) 
