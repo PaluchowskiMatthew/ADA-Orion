@@ -49,7 +49,7 @@ Scraped places data from either or a combination of the following APIs:
  
 ### 2. Data acquisition feasibility
  
-+ The most promissing dataset is owned by Foursquare which is somewhat focused on restaurants and food - it contains various locations with users pictures taken in it. So called venues are geolocated and so are the pictures taken in those venues. It seems that we could 'crawl' [Foursquare's API](https://developer.foursquare.com/docs/venues/search "Foursquare's API") in order to obtain large dataset of restaurants in Switzerland and pictures taken in those restaurants.
++ The most promissing dataset we have found, is the one by Factual. From our tests we seem to be able to extract the data we need - geolocated, categorized venue information. The query results are somewhat limited, having 50 reslults as a maximum. We believe that by doing the querying/scraping in a structural way, we will be able to get us around this problem. 
 
 
 ### 3. Data processing risks
