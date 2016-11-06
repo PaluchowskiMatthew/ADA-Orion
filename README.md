@@ -22,9 +22,9 @@ Inspired by the talk of Mohamed Kafsi we have picked up their idea of finding ne
 
 Scraped places data from either or a combination of the following APIs:
 
-* Google Maps Places API
-* Factual Places API
-* Foursquare API
+* [Google Maps Places API](https://developers.google.com/places/)
+* [Factual Places API](http://developer.factual.com/api-docs/)
+* [Foursquare API](https://developer.foursquare.com/)
 
 
 <a name="Feasibility"/>
