@@ -22,32 +22,40 @@ Inspired by the talk of Mohamed Kafsi we have picked up their idea of finding ne
 
 Scraped places data from either or a combination of the following APIs:
 
-* [Google Maps Places API](https://developers.google.com/places/)
 * [Factual Places API](http://developer.factual.com/api-docs/)
+	We want to use the Factual API to gather information on the location of restaurants, cafees, theatres etc. These will be our main descriptives for an area.
+
 * [Foursquare API](https://developer.foursquare.com/)
+	If we descide to use user recomendations of the restaurants etc., we have concidered Foursquare as a source.
+	
+* [Google Maps/Places API](https://developers.google.com/places/)
+	As a backup plan, we have the Google Places API that does much the same as the factual API. Because of strong regulations on usage, we will try to base our solution on the Factual API.
+	
 
 
 <a name="Feasibility"/>
 ## Feasibility and Risks
 
-###1. Data acquisition Risks
+### 1. Data acquisition Risks
+
+- For Google's APIs, there are quite strict regulations on how you are allowed to use the data. Our plant might 
 
 + Flickr dataset contains only 350k Swiss geolocated pictures and it mostly contains mountains/places/people not food.
 	
 + By default both Instagram and Facebook strip off EXIF geolocation of image they store in database so this database might proove to be quite useless for our application (but maybe there is some other way of obtaining geolocation of pictures from Instagram? Maybe its directly in schema of dataset?) 
  
-###2. Data acquisition feasibility
+### 2. Data acquisition feasibility
  
 + The most promissing dataset is owned by Foursquare which is somewhat focused on restaurants and food - it contains various locations with users pictures taken in it. So called venues are geolocated and so are the pictures taken in those venues. It seems that we could 'crawl' [Foursquare's API](https://developer.foursquare.com/docs/venues/search "Foursquare's API") in order to obtain large dataset of restaurants in Switzerland and pictures taken in those restaurants.
 
 
-###3. Data processing risks
+### 3. Data processing risks
 
-###4. Data processing feasibility
+### 4. Data processing feasibility
 
-###5. Data visualization risks
+### 5. Data visualization risks
 
-###6. Data visualization feasibility
+### 6. Data visualization feasibility
 
 <a name="Deliverables"/>
 ## Deliverables
