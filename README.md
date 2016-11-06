@@ -51,10 +51,15 @@ Scraped places data from either or a combination of the following APIs:
  
 + The most promissing dataset is owned by Foursquare which is somewhat focused on restaurants and food - it contains various locations with users pictures taken in it. So called venues are geolocated and so are the pictures taken in those venues. It seems that we could 'crawl' [Foursquare's API](https://developer.foursquare.com/docs/venues/search "Foursquare's API") in order to obtain large dataset of restaurants in Switzerland and pictures taken in those restaurants.
 
-
 ### 3. Data processing risks
 
++ One possible data processing risk is related to combining multiple data sources into one dataset. It might be challenging in terms of general logistics as well as processing power (datasets might be larger then what we can easily manipulate on one machine).
+
++ Creating meaningful metrics in order to accurately describe and compare neighborhoods might prove to be challenging and there is no real baseline model for verification. We can only do it by ourselves based on our neighborhood knowledge. 
+
 ### 4. Data processing feasibility
+
++ We are hoping to obtain large enough dataset in order to present valuable insight but small eoungh to manipulate it on single machine.
 
 ### 5. Data visualization risks
 
