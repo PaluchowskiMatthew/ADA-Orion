@@ -1,0 +1,3271 @@
+{
+  "1": {
+    "label": "Factual Places",
+    "parents": [
+
+    ],
+    "abstract": true
+  },
+  "2": {
+    "label": "Automotive",
+    "parents": [
+      "1"
+    ],
+    "abstract": false
+  },
+  "3": {
+    "label": "Car Appraisers",
+    "parents": [
+      "2"
+    ],
+    "abstract": false
+  },
+  "4": {
+    "label": "Car Dealers and Leasing",
+    "parents": [
+      "2"
+    ],
+    "abstract": false
+  },
+  "5": {
+    "label": "Used Cars",
+    "parents": [
+      "4"
+    ],
+    "abstract": false
+  },
+  "6": {
+    "label": "Car Parts and Accessories",
+    "parents": [
+      "2"
+    ],
+    "abstract": false
+  },
+  "7": {
+    "label": "Car Wash and Detail",
+    "parents": [
+      "2"
+    ],
+    "abstract": false
+  },
+  "8": {
+    "label": "Classic and Antique Car",
+    "parents": [
+      "2"
+    ],
+    "abstract": false
+  },
+  "9": {
+    "label": "Maintenance and Repair",
+    "parents": [
+      "2"
+    ],
+    "abstract": false
+  },
+  "10": {
+    "label": "Oil and Lube",
+    "parents": [
+      "9"
+    ],
+    "abstract": false
+  },
+  "11": {
+    "label": "Smog Check",
+    "parents": [
+      "9"
+    ],
+    "abstract": false
+  },
+  "12": {
+    "label": "Tires",
+    "parents": [
+      "9"
+    ],
+    "abstract": false
+  },
+  "13": {
+    "label": "Transmissions",
+    "parents": [
+      "9"
+    ],
+    "abstract": false
+  },
+  "14": {
+    "label": "Motorcycles, Mopeds and Scooters",
+    "parents": [
+      "2"
+    ],
+    "abstract": false
+  },
+  "15": {
+    "label": "Repair",
+    "parents": [
+      "14"
+    ],
+    "abstract": false
+  },
+  "16": {
+    "label": "Sales",
+    "parents": [
+      "14"
+    ],
+    "abstract": false
+  },
+  "17": {
+    "label": "RVs and Motor Homes",
+    "parents": [
+      "2"
+    ],
+    "abstract": false
+  },
+  "18": {
+    "label": "Salvage Yards",
+    "parents": [
+      "2"
+    ],
+    "abstract": false
+  },
+  "19": {
+    "label": "Towing",
+    "parents": [
+      "2"
+    ],
+    "abstract": false
+  },
+  "20": {
+    "label": "Community and Government",
+    "parents": [
+      "1"
+    ],
+    "abstract": false
+  },
+  "21": {
+    "label": "Animal Shelters and Humane Societies",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "22": {
+    "label": "Cemeteries",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "23": {
+    "label": "Day Care and Preschools",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "24": {
+    "label": "Disabled Persons Services",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "25": {
+    "label": "Drug and Alcohol Services",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "26": {
+    "label": "Education",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "27": {
+    "label": "Adult Education",
+    "parents": [
+      "26"
+    ],
+    "abstract": false
+  },
+  "28": {
+    "label": "Art Lessons and Schools",
+    "parents": [
+      "26"
+    ],
+    "abstract": false
+  },
+  "29": {
+    "label": "Colleges and Universities",
+    "parents": [
+      "26"
+    ],
+    "abstract": false
+  },
+  "30": {
+    "label": "Computer Training",
+    "parents": [
+      "26"
+    ],
+    "abstract": false
+  },
+  "31": {
+    "label": "Culinary Lessons and Schools",
+    "parents": [
+      "26"
+    ],
+    "abstract": false
+  },
+  "32": {
+    "label": "Driving Schools",
+    "parents": [
+      "26"
+    ],
+    "abstract": false
+  },
+  "33": {
+    "label": "Fraternities and Sororities",
+    "parents": [
+      "26"
+    ],
+    "abstract": false
+  },
+  "34": {
+    "label": "Primary and Secondary Schools",
+    "parents": [
+      "26"
+    ],
+    "abstract": false
+  },
+  "35": {
+    "label": "Tutoring and Educational Services",
+    "parents": [
+      "26"
+    ],
+    "abstract": false
+  },
+  "36": {
+    "label": "Vocational Schools",
+    "parents": [
+      "26"
+    ],
+    "abstract": false
+  },
+  "37": {
+    "label": "Government Departments and Agencies",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "38": {
+    "label": "Government Lobbyists",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "39": {
+    "label": "Housing Assistance and Shelters",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "40": {
+    "label": "Law Enforcement and Public Safety",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "41": {
+    "label": "Rescue Services",
+    "parents": [
+      "40"
+    ],
+    "abstract": false
+  },
+  "42": {
+    "label": "Fire Stations",
+    "parents": [
+      "40"
+    ],
+    "abstract": false
+  },
+  "43": {
+    "label": "Police Stations",
+    "parents": [
+      "40"
+    ],
+    "abstract": false
+  },
+  "44": {
+    "label": "Libraries",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "45": {
+    "label": "Military",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "46": {
+    "label": "Bases",
+    "parents": [
+      "45"
+    ],
+    "abstract": false
+  },
+  "47": {
+    "label": "Organizations and Associations",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "48": {
+    "label": "Charities and Non-Profits",
+    "parents": [
+      "47"
+    ],
+    "abstract": false
+  },
+  "49": {
+    "label": "Environmental",
+    "parents": [
+      "47"
+    ],
+    "abstract": false
+  },
+  "50": {
+    "label": "Youth Organizations",
+    "parents": [
+      "47"
+    ],
+    "abstract": false
+  },
+  "51": {
+    "label": "Post Offices",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "52": {
+    "label": "Public and Social Services",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "53": {
+    "label": "Religious",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "54": {
+    "label": "Buddhist Temples",
+    "parents": [
+      "53"
+    ],
+    "abstract": false
+  },
+  "55": {
+    "label": "Churches",
+    "parents": [
+      "53"
+    ],
+    "abstract": false
+  },
+  "56": {
+    "label": "Hindu Temples",
+    "parents": [
+      "53"
+    ],
+    "abstract": false
+  },
+  "57": {
+    "label": "Mosques",
+    "parents": [
+      "53"
+    ],
+    "abstract": false
+  },
+  "58": {
+    "label": "Synagogues",
+    "parents": [
+      "53"
+    ],
+    "abstract": false
+  },
+  "59": {
+    "label": "Senior Citizen Services",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "60": {
+    "label": "Retirement",
+    "parents": [
+      "59"
+    ],
+    "abstract": false
+  },
+  "61": {
+    "label": "Utility Companies",
+    "parents": [
+      "20"
+    ],
+    "abstract": false
+  },
+  "62": {
+    "label": "Healthcare",
+    "parents": [
+      "1"
+    ],
+    "abstract": false
+  },
+  "63": {
+    "label": "AIDS Resources",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "64": {
+    "label": "Assisted Living Services",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "65": {
+    "label": "Home Health Care Services",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "66": {
+    "label": "Facilities and Nursing Homes",
+    "parents": [
+      "64"
+    ],
+    "abstract": false
+  },
+  "67": {
+    "label": "Blood Banks and Centers",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "68": {
+    "label": "Chiropractors",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "69": {
+    "label": "Dentists",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "70": {
+    "label": "Emergency Services",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "71": {
+    "label": "Ambulance",
+    "parents": [
+      "70"
+    ],
+    "abstract": false
+  },
+  "72": {
+    "label": "Holistic, Alternative and Naturopathic Medicine",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "73": {
+    "label": "Acupuncture",
+    "parents": [
+      "72"
+    ],
+    "abstract": false
+  },
+  "74": {
+    "label": "Hospitals, Clinics and Medical Centers",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "75": {
+    "label": "Medical Supplies and Labs",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "76": {
+    "label": "Mental Health",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "77": {
+    "label": "Counseling and Therapy",
+    "parents": [
+      "76"
+    ],
+    "abstract": false
+  },
+  "78": {
+    "label": "Psychologists",
+    "parents": [
+      "76"
+    ],
+    "abstract": false
+  },
+  "79": {
+    "label": "Nurses",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "80": {
+    "label": "Pharmacies",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "81": {
+    "label": "Physical Therapy and Rehabilitation",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "82": {
+    "label": "Sports Medicine",
+    "parents": [
+      "81"
+    ],
+    "abstract": false
+  },
+  "83": {
+    "label": "Physicians",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "84": {
+    "label": "Anesthesiologists",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "85": {
+    "label": "Cardiologists",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "86": {
+    "label": "Dermatologists",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "87": {
+    "label": "Ear, Nose and Throat",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "88": {
+    "label": "Family Medicine",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "89": {
+    "label": "Gastroenterologists",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "90": {
+    "label": "General Surgery",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "91": {
+    "label": "Internal Medicine",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "92": {
+    "label": "Neurologists",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "93": {
+    "label": "Obstetricians and Gynecologists",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "94": {
+    "label": "Oncologists",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "95": {
+    "label": "Ophthalmologists",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "96": {
+    "label": "Orthopedic Surgeons",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "97": {
+    "label": "Pathologists",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "98": {
+    "label": "Pediatricians",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "99": {
+    "label": "Plastic Surgeons",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "100": {
+    "label": "Psychiatrists",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "101": {
+    "label": "Radiologists",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "102": {
+    "label": "Respiratory",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "103": {
+    "label": "Urologists",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "104": {
+    "label": "Podiatrists",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "105": {
+    "label": "Pregnancy and Sexual Health",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "106": {
+    "label": "Weight Loss and Nutritionists",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "107": {
+    "label": "Landmarks",
+    "parents": [
+      "1"
+    ],
+    "abstract": false
+  },
+  "108": {
+    "label": "Buildings and Structures",
+    "parents": [
+      "107"
+    ],
+    "abstract": false
+  },
+  "109": {
+    "label": "Gardens",
+    "parents": [
+      "107"
+    ],
+    "abstract": false
+  },
+  "110": {
+    "label": "Historic and Protected Sites",
+    "parents": [
+      "107"
+    ],
+    "abstract": false
+  },
+  "111": {
+    "label": "Monuments and Memorials",
+    "parents": [
+      "107"
+    ],
+    "abstract": false
+  },
+  "112": {
+    "label": "Natural",
+    "parents": [
+      "107"
+    ],
+    "abstract": false
+  },
+  "113": {
+    "label": "Beaches",
+    "parents": [
+      "112"
+    ],
+    "abstract": false
+  },
+  "114": {
+    "label": "Mountains",
+    "parents": [
+      "112"
+    ],
+    "abstract": false
+  },
+  "115": {
+    "label": "Forests",
+    "parents": [
+      "112"
+    ],
+    "abstract": false
+  },
+  "116": {
+    "label": "Lakes",
+    "parents": [
+      "112"
+    ],
+    "abstract": false
+  },
+  "117": {
+    "label": "Rivers",
+    "parents": [
+      "112"
+    ],
+    "abstract": false
+  },
+  "118": {
+    "label": "Parks",
+    "parents": [
+      "107"
+    ],
+    "abstract": false
+  },
+  "119": {
+    "label": "Natural Parks",
+    "parents": [
+      "118"
+    ],
+    "abstract": false
+  },
+  "120": {
+    "label": "Picnic Areas",
+    "parents": [
+      "118"
+    ],
+    "abstract": false
+  },
+  "121": {
+    "label": "Playgrounds",
+    "parents": [
+      "118"
+    ],
+    "abstract": false
+  },
+  "122": {
+    "label": "Urban Parks",
+    "parents": [
+      "118"
+    ],
+    "abstract": false
+  },
+  "123": {
+    "label": "Retail",
+    "parents": [
+      "1"
+    ],
+    "abstract": false
+  },
+  "124": {
+    "label": "Adult",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "125": {
+    "label": "Antiques",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "126": {
+    "label": "Arts and Crafts",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "127": {
+    "label": "Auctions",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "128": {
+    "label": "Beauty Products",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "129": {
+    "label": "Bicycles",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "130": {
+    "label": "Bookstores",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "131": {
+    "label": "Cards and Stationery",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "132": {
+    "label": "Children",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "133": {
+    "label": "Computers and Electronics",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "134": {
+    "label": "Cameras",
+    "parents": [
+      "133"
+    ],
+    "abstract": false
+  },
+  "135": {
+    "label": "Mobile Phones",
+    "parents": [
+      "133"
+    ],
+    "abstract": false
+  },
+  "136": {
+    "label": "Video Games",
+    "parents": [
+      "133"
+    ],
+    "abstract": false
+  },
+  "137": {
+    "label": "Construction Supplies",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "138": {
+    "label": "Convenience Stores",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "139": {
+    "label": "Costumes",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "140": {
+    "label": "Dance and Music",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "141": {
+    "label": "Department Stores",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "142": {
+    "label": "Fashion",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "143": {
+    "label": "Clothing and Accessories",
+    "parents": [
+      "142"
+    ],
+    "abstract": false
+  },
+  "144": {
+    "label": "Jewelry and Watches",
+    "parents": [
+      "142"
+    ],
+    "abstract": false
+  },
+  "145": {
+    "label": "Shoes",
+    "parents": [
+      "142"
+    ],
+    "abstract": false
+  },
+  "146": {
+    "label": "Swimwear",
+    "parents": [
+      "142"
+    ],
+    "abstract": false
+  },
+  "147": {
+    "label": "Flea Markets",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "148": {
+    "label": "Florists",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "149": {
+    "label": "Food and Beverage",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "150": {
+    "label": "Beer, Wine and Spirits",
+    "parents": [
+      "149"
+    ],
+    "abstract": false
+  },
+  "151": {
+    "label": "Candy Stores",
+    "parents": [
+      "149"
+    ],
+    "abstract": false
+  },
+  "152": {
+    "label": "Cheese",
+    "parents": [
+      "149"
+    ],
+    "abstract": false
+  },
+  "153": {
+    "label": "Chocolate",
+    "parents": [
+      "149"
+    ],
+    "abstract": false
+  },
+  "154": {
+    "label": "Farmers' Markets",
+    "parents": [
+      "149"
+    ],
+    "abstract": false
+  },
+  "155": {
+    "label": "Health and Diet Food",
+    "parents": [
+      "149"
+    ],
+    "abstract": false
+  },
+  "156": {
+    "label": "Kosher",
+    "parents": [
+      "149"
+    ],
+    "abstract": false
+  },
+  "157": {
+    "label": "Furniture and Decor",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "158": {
+    "label": "Gift and Novelty",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "159": {
+    "label": "Glasses",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "160": {
+    "label": "Hobby and Collectibles",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "161": {
+    "label": "Luggage",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "162": {
+    "label": "Music, Video and DVD",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "163": {
+    "label": "Newsstands",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "164": {
+    "label": "Nurseries and Garden Centers",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "165": {
+    "label": "Outlet",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "166": {
+    "label": "Pawn Shops",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "167": {
+    "label": "Pets",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "168": {
+    "label": "Photos and Frames",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "169": {
+    "label": "Shopping Centers and Malls",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "170": {
+    "label": "Sporting Goods",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "171": {
+    "label": "Supermarkets and Groceries",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "172": {
+    "label": "Tobacco",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "173": {
+    "label": "Toys",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "174": {
+    "label": "Vintage and Thrift",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "175": {
+    "label": "Warehouses and Wholesale Stores",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "176": {
+    "label": "Wedding and Bridal",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "177": {
+    "label": "Businesses and Services",
+    "parents": [
+      "1"
+    ],
+    "abstract": false
+  },
+  "178": {
+    "label": "Business and Strategy Consulting",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "179": {
+    "label": "Industrial Machinery and Vehicles",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "180": {
+    "label": "Logging and Sawmills",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "181": {
+    "label": "Metals",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "182": {
+    "label": "Packaging",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "183": {
+    "label": "Petroleum",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "184": {
+    "label": "Plastics",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "185": {
+    "label": "Refrigeration and Ice",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "186": {
+    "label": "Rubber",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "187": {
+    "label": "Scientific",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "188": {
+    "label": "Security and Safety",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "189": {
+    "label": "Telecommunication Services",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "190": {
+    "label": "Textiles",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "191": {
+    "label": "Water and Waste Management",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "192": {
+    "label": "Welding",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "193": {
+    "label": "Advertising and Marketing",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "194": {
+    "label": "Advertising Agencies and Media Buyers",
+    "parents": [
+      "193"
+    ],
+    "abstract": false
+  },
+  "195": {
+    "label": "Creative Services",
+    "parents": [
+      "193"
+    ],
+    "abstract": false
+  },
+  "196": {
+    "label": "Direct Mail and Email Marketing Services",
+    "parents": [
+      "193"
+    ],
+    "abstract": false
+  },
+  "197": {
+    "label": "Market Research and Consulting",
+    "parents": [
+      "193"
+    ],
+    "abstract": false
+  },
+  "198": {
+    "label": "Online Advertising",
+    "parents": [
+      "193"
+    ],
+    "abstract": false
+  },
+  "199": {
+    "label": "Print, TV, Radio and Outdoor Advertising",
+    "parents": [
+      "193"
+    ],
+    "abstract": false
+  },
+  "200": {
+    "label": "Promotional Items",
+    "parents": [
+      "193"
+    ],
+    "abstract": false
+  },
+  "201": {
+    "label": "Public Relations",
+    "parents": [
+      "193"
+    ],
+    "abstract": false
+  },
+  "202": {
+    "label": "Search Engine Marketing and Optimization",
+    "parents": [
+      "193"
+    ],
+    "abstract": false
+  },
+  "203": {
+    "label": "Writing, Copywriting and Technical Writing",
+    "parents": [
+      "193"
+    ],
+    "abstract": false
+  },
+  "204": {
+    "label": "Agriculture and Forestry",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "205": {
+    "label": "Art Restoration",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "206": {
+    "label": "Audiovisual",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "207": {
+    "label": "Automation and Control Systems",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "208": {
+    "label": "Chemicals and Gasses",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "209": {
+    "label": "Computers",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "210": {
+    "label": "Corporate HQ",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "211": {
+    "label": "Electrical Equipment",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "212": {
+    "label": "Employment Agencies",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "213": {
+    "label": "Engineering",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "214": {
+    "label": "Entertainment",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "215": {
+    "label": "Media",
+    "parents": [
+      "214"
+    ],
+    "abstract": false
+  },
+  "216": {
+    "label": "Equipment Rental",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "217": {
+    "label": "Events and Event Planning",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "218": {
+    "label": "ATMs",
+    "parents": [
+      "221"
+    ],
+    "abstract": false
+  },
+  "219": {
+    "label": "Financial",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "220": {
+    "label": "Accounting and Bookkeeping",
+    "parents": [
+      "219"
+    ],
+    "abstract": false
+  },
+  "221": {
+    "label": "Banking and Finance",
+    "parents": [
+      "219"
+    ],
+    "abstract": false
+  },
+  "222": {
+    "label": "Business Brokers and Franchises",
+    "parents": [
+      "219"
+    ],
+    "abstract": false
+  },
+  "223": {
+    "label": "Check Cashing",
+    "parents": [
+      "219"
+    ],
+    "abstract": false
+  },
+  "224": {
+    "label": "Collections",
+    "parents": [
+      "219"
+    ],
+    "abstract": false
+  },
+  "225": {
+    "label": "Financial Planning and Investments",
+    "parents": [
+      "219"
+    ],
+    "abstract": false
+  },
+  "226": {
+    "label": "Fund Raising",
+    "parents": [
+      "219"
+    ],
+    "abstract": false
+  },
+  "227": {
+    "label": "Loans and Mortgages",
+    "parents": [
+      "219"
+    ],
+    "abstract": false
+  },
+  "228": {
+    "label": "Stock Brokers",
+    "parents": [
+      "219"
+    ],
+    "abstract": false
+  },
+  "229": {
+    "label": "Student Aid and Grants",
+    "parents": [
+      "219"
+    ],
+    "abstract": false
+  },
+  "230": {
+    "label": "Food and Beverage",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "231": {
+    "label": "Catering",
+    "parents": [
+      "230"
+    ],
+    "abstract": false
+  },
+  "232": {
+    "label": "Distribution",
+    "parents": [
+      "230"
+    ],
+    "abstract": false
+  },
+  "233": {
+    "label": "Funeral Services",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "234": {
+    "label": "Geological",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "235": {
+    "label": "Home Improvement",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "236": {
+    "label": "Architects",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "237": {
+    "label": "Carpenters",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "238": {
+    "label": "Carpet and Flooring",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "239": {
+    "label": "Contractors",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "240": {
+    "label": "Bathrooms",
+    "parents": [
+      "239"
+    ],
+    "abstract": false
+  },
+  "241": {
+    "label": "Deck and Patio",
+    "parents": [
+      "239"
+    ],
+    "abstract": false
+  },
+  "242": {
+    "label": "Sewer",
+    "parents": [
+      "239"
+    ],
+    "abstract": false
+  },
+  "243": {
+    "label": "Doors and Windows",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "244": {
+    "label": "Electricians",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "245": {
+    "label": "Fences, Fireplaces and Garage Doors",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "246": {
+    "label": "Hardware and Services",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "247": {
+    "label": "Heating, Ventilating and Air Conditioning",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "248": {
+    "label": "Home Appliances",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "249": {
+    "label": "Home Inspection Services",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "250": {
+    "label": "Housewares",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "251": {
+    "label": "Interior Design",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "252": {
+    "label": "Kitchens",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "253": {
+    "label": "Landscaping and Gardeners",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "254": {
+    "label": "Lighting Fixtures",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "255": {
+    "label": "Mobile Homes",
+    "parents": [
+      "291"
+    ],
+    "abstract": false
+  },
+  "256": {
+    "label": "Movers",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "257": {
+    "label": "Painting",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "258": {
+    "label": "Pest Control",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "259": {
+    "label": "Plumbing",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "260": {
+    "label": "Pools and Spas",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "261": {
+    "label": "Roofers",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "262": {
+    "label": "Storage",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "263": {
+    "label": "Swimming Pool Maintenance and Services",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "264": {
+    "label": "Tree Service",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "265": {
+    "label": "Upholstery",
+    "parents": [
+      "235"
+    ],
+    "abstract": false
+  },
+  "266": {
+    "label": "Human Resources",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "267": {
+    "label": "Import and Export",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "268": {
+    "label": "Leather",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "269": {
+    "label": "Legal",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "270": {
+    "label": "Credit Counseling and Bankruptcy Services",
+    "parents": [
+      "269"
+    ],
+    "abstract": false
+  },
+  "271": {
+    "label": "Immigration",
+    "parents": [
+      "269"
+    ],
+    "abstract": false
+  },
+  "272": {
+    "label": "Insurance",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "273": {
+    "label": "Machine Shops",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "274": {
+    "label": "Management",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "275": {
+    "label": "Manufacturing",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "276": {
+    "label": "Paper",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "277": {
+    "label": "Personal Care",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "278": {
+    "label": "Dry Cleaning, Ironing and Laundry",
+    "parents": [
+      "277"
+    ],
+    "abstract": false
+  },
+  "279": {
+    "label": "Hair Removal",
+    "parents": [
+      "277"
+    ],
+    "abstract": false
+  },
+  "280": {
+    "label": "Beauty Salons and Barbers",
+    "parents": [
+      "277"
+    ],
+    "abstract": false
+  },
+  "281": {
+    "label": "Manicures and Pedicures",
+    "parents": [
+      "277"
+    ],
+    "abstract": false
+  },
+  "282": {
+    "label": "Massage Clinics and Therapists",
+    "parents": [
+      "277"
+    ],
+    "abstract": false
+  },
+  "283": {
+    "label": "Piercing",
+    "parents": [
+      "277"
+    ],
+    "abstract": false
+  },
+  "284": {
+    "label": "Skin Care",
+    "parents": [
+      "277"
+    ],
+    "abstract": false
+  },
+  "285": {
+    "label": "Spas",
+    "parents": [
+      "277"
+    ],
+    "abstract": false
+  },
+  "286": {
+    "label": "Tanning Salons",
+    "parents": [
+      "277"
+    ],
+    "abstract": false
+  },
+  "287": {
+    "label": "Tattooing",
+    "parents": [
+      "277"
+    ],
+    "abstract": false
+  },
+  "288": {
+    "label": "Printing, Copying and Signage",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "289": {
+    "label": "Professional Cleaning",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "290": {
+    "label": "Publishing",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "291": {
+    "label": "Real Estate",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "292": {
+    "label": "Property Management",
+    "parents": [
+      "291"
+    ],
+    "abstract": false
+  },
+  "293": {
+    "label": "Real Estate Agents",
+    "parents": [
+      "291"
+    ],
+    "abstract": false
+  },
+  "294": {
+    "label": "Real Estate Appraiser",
+    "parents": [
+      "291"
+    ],
+    "abstract": false
+  },
+  "295": {
+    "label": "Real Estate Development and Title Companies",
+    "parents": [
+      "291"
+    ],
+    "abstract": false
+  },
+  "296": {
+    "label": "Apartments, Condos, and Houses",
+    "parents": [
+      "291"
+    ],
+    "abstract": false
+  },
+  "297": {
+    "label": "Boarding Houses",
+    "parents": [
+      "291"
+    ],
+    "abstract": false
+  },
+  "298": {
+    "label": "Building and Land Surveyors",
+    "parents": [
+      "291"
+    ],
+    "abstract": false
+  },
+  "299": {
+    "label": "Commercial Real Estate",
+    "parents": [
+      "291"
+    ],
+    "abstract": false
+  },
+  "300": {
+    "label": "Corporate Housing",
+    "parents": [
+      "291"
+    ],
+    "abstract": false
+  },
+  "301": {
+    "label": "Renewable Energy",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "302": {
+    "label": "Repair Services",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "303": {
+    "label": "Shipping, Freight, and Material Transportation",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "304": {
+    "label": "Tailors",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "305": {
+    "label": "Veterinarians",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "306": {
+    "label": "Web Design and Development",
+    "parents": [
+      "460"
+    ],
+    "abstract": false
+  },
+  "307": {
+    "label": "Wholesale",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "308": {
+    "label": "Social",
+    "parents": [
+      "1"
+    ],
+    "abstract": false
+  },
+  "309": {
+    "label": "Arts",
+    "parents": [
+      "308"
+    ],
+    "abstract": false
+  },
+  "310": {
+    "label": "Art Dealers and Galleries",
+    "parents": [
+      "309"
+    ],
+    "abstract": false
+  },
+  "311": {
+    "label": "Museums",
+    "parents": [
+      "309"
+    ],
+    "abstract": false
+  },
+  "312": {
+    "label": "Bars",
+    "parents": [
+      "308"
+    ],
+    "abstract": false
+  },
+  "313": {
+    "label": "Hotel Lounges",
+    "parents": [
+      "312"
+    ],
+    "abstract": false
+  },
+  "314": {
+    "label": "Jazz and Blues Cafes",
+    "parents": [
+      "312"
+    ],
+    "abstract": false
+  },
+  "315": {
+    "label": "Sports Bars",
+    "parents": [
+      "312"
+    ],
+    "abstract": false
+  },
+  "316": {
+    "label": "Wine Bars",
+    "parents": [
+      "312"
+    ],
+    "abstract": false
+  },
+  "317": {
+    "label": "Entertainment",
+    "parents": [
+      "308"
+    ],
+    "abstract": false
+  },
+  "318": {
+    "label": "Adult Entertainment",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "319": {
+    "label": "Amusement Parks",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "320": {
+    "label": "Billiard and Pool",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "321": {
+    "label": "Bingo",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "322": {
+    "label": "Bowling",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "323": {
+    "label": "Carnivals",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "324": {
+    "label": "Casinos and Gaming",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "325": {
+    "label": "Circuses",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "326": {
+    "label": "Dance Halls and Saloons",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "327": {
+    "label": "Fairgrounds and Rodeos",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "328": {
+    "label": "Go Carts",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "329": {
+    "label": "Hookah Lounges",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "330": {
+    "label": "Karaoke",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "331": {
+    "label": "Miniature Golf",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "332": {
+    "label": "Movie Theatres",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "333": {
+    "label": "Music and Show Venues",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "334": {
+    "label": "Night Clubs",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "335": {
+    "label": "Party Centers",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "336": {
+    "label": "Psychics and Astrologers",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "337": {
+    "label": "Ticket Sales",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "338": {
+    "label": "Food and Dining",
+    "parents": [
+      "308"
+    ],
+    "abstract": false
+  },
+  "339": {
+    "label": "Bagels and Donuts",
+    "parents": [
+      "338"
+    ],
+    "abstract": false
+  },
+  "340": {
+    "label": "Bakeries",
+    "parents": [
+      "338"
+    ],
+    "abstract": false
+  },
+  "341": {
+    "label": "Breweries",
+    "parents": [
+      "338"
+    ],
+    "abstract": false
+  },
+  "342": {
+    "label": "Cafes, Coffee and Tea Houses",
+    "parents": [
+      "338"
+    ],
+    "abstract": false
+  },
+  "343": {
+    "label": "Dessert",
+    "parents": [
+      "338"
+    ],
+    "abstract": false
+  },
+  "344": {
+    "label": "Ice Cream Parlors",
+    "parents": [
+      "338"
+    ],
+    "abstract": false
+  },
+  "345": {
+    "label": "Internet Cafes",
+    "parents": [
+      "338"
+    ],
+    "abstract": false
+  },
+  "346": {
+    "label": "Juice Bars and Smoothies",
+    "parents": [
+      "338"
+    ],
+    "abstract": false
+  },
+  "347": {
+    "label": "Restaurants",
+    "parents": [
+      "338"
+    ],
+    "abstract": false
+  },
+  "348": {
+    "label": "American",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "349": {
+    "label": "Barbecue",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "350": {
+    "label": "Buffets",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "351": {
+    "label": "Burgers",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "352": {
+    "label": "Chinese",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "353": {
+    "label": "Delis",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "354": {
+    "label": "Diners",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "355": {
+    "label": "Fast Food",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "356": {
+    "label": "French",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "357": {
+    "label": "Indian",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "358": {
+    "label": "Italian",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "359": {
+    "label": "Japanese",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "360": {
+    "label": "Korean",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "361": {
+    "label": "Mexican",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "362": {
+    "label": "Middle Eastern",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "363": {
+    "label": "Pizza",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "364": {
+    "label": "Seafood",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "365": {
+    "label": "Steakhouses",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "366": {
+    "label": "Sushi",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "367": {
+    "label": "Thai",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "368": {
+    "label": "Vegan and Vegetarian",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "369": {
+    "label": "Country Clubs",
+    "parents": [
+      "308"
+    ],
+    "abstract": false
+  },
+  "370": {
+    "label": "Wineries and Vineyards",
+    "parents": [
+      "308"
+    ],
+    "abstract": false
+  },
+  "371": {
+    "label": "Zoos, Aquariums and Wildlife Sanctuaries",
+    "parents": [
+      "308"
+    ],
+    "abstract": false
+  },
+  "372": {
+    "label": "Sports and Recreation",
+    "parents": [
+      "1"
+    ],
+    "abstract": false
+  },
+  "373": {
+    "label": "Athletic Fields",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "374": {
+    "label": "Baseball",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "375": {
+    "label": "Batting Ranges",
+    "parents": [
+      "374"
+    ],
+    "abstract": false
+  },
+  "376": {
+    "label": "Basketball",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "377": {
+    "label": "Combat Sports",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "378": {
+    "label": "Cycling",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "379": {
+    "label": "Dance",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "380": {
+    "label": "Equestrian",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "381": {
+    "label": "Football",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "382": {
+    "label": "Golf",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "383": {
+    "label": "Gun Ranges",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "384": {
+    "label": "Gymnastics",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "385": {
+    "label": "Gyms and Fitness Centers",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "386": {
+    "label": "Hockey",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "387": {
+    "label": "Outdoors",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "388": {
+    "label": "Campgrounds and RV Parks",
+    "parents": [
+      "387"
+    ],
+    "abstract": false
+  },
+  "389": {
+    "label": "Hiking",
+    "parents": [
+      "387"
+    ],
+    "abstract": false
+  },
+  "390": {
+    "label": "Hot Air Balloons",
+    "parents": [
+      "387"
+    ],
+    "abstract": false
+  },
+  "391": {
+    "label": "Hunting and Fishing",
+    "parents": [
+      "387"
+    ],
+    "abstract": false
+  },
+  "392": {
+    "label": "Rock Climbing",
+    "parents": [
+      "387"
+    ],
+    "abstract": false
+  },
+  "393": {
+    "label": "Skydiving",
+    "parents": [
+      "387"
+    ],
+    "abstract": false
+  },
+  "394": {
+    "label": "Paintball",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "395": {
+    "label": "Personal Trainers",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "396": {
+    "label": "Race Tracks",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "397": {
+    "label": "Racquet Sports",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "398": {
+    "label": "Racquetball",
+    "parents": [
+      "397"
+    ],
+    "abstract": false
+  },
+  "399": {
+    "label": "Tennis",
+    "parents": [
+      "397"
+    ],
+    "abstract": false
+  },
+  "400": {
+    "label": "Recreation Centers",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "401": {
+    "label": "Running",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "402": {
+    "label": "Skating",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "403": {
+    "label": "Snow Sports",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "404": {
+    "label": "Soccer",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "405": {
+    "label": "Sports Clubs",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "406": {
+    "label": "Stadiums and Arenas",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "407": {
+    "label": "Swimming Pools",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "408": {
+    "label": "Water Sports",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "409": {
+    "label": "Boating",
+    "parents": [
+      "408"
+    ],
+    "abstract": false
+  },
+  "410": {
+    "label": "Canoes and Kayaks",
+    "parents": [
+      "408"
+    ],
+    "abstract": false
+  },
+  "411": {
+    "label": "Rafting",
+    "parents": [
+      "408"
+    ],
+    "abstract": false
+  },
+  "412": {
+    "label": "Scuba Diving",
+    "parents": [
+      "408"
+    ],
+    "abstract": false
+  },
+  "413": {
+    "label": "Swimming",
+    "parents": [
+      "408"
+    ],
+    "abstract": false
+  },
+  "414": {
+    "label": "Yoga and Pilates",
+    "parents": [
+      "372"
+    ],
+    "abstract": false
+  },
+  "415": {
+    "label": "Transportation",
+    "parents": [
+      "1"
+    ],
+    "abstract": false
+  },
+  "416": {
+    "label": "Airlines and Aviation Services",
+    "parents": [
+      "415"
+    ],
+    "abstract": false
+  },
+  "417": {
+    "label": "Gas Stations",
+    "parents": [
+      "415"
+    ],
+    "abstract": false
+  },
+  "418": {
+    "label": "Parking",
+    "parents": [
+      "415"
+    ],
+    "abstract": false
+  },
+  "419": {
+    "label": "Public Transportation Services",
+    "parents": [
+      "415"
+    ],
+    "abstract": false
+  },
+  "420": {
+    "label": "Taxi and Car Services",
+    "parents": [
+      "415"
+    ],
+    "abstract": false
+  },
+  "421": {
+    "label": "Car and Truck Rentals",
+    "parents": [
+      "420"
+    ],
+    "abstract": false
+  },
+  "422": {
+    "label": "Charter Buses",
+    "parents": [
+      "420"
+    ],
+    "abstract": false
+  },
+  "423": {
+    "label": "Limos and Chauffeurs",
+    "parents": [
+      "420"
+    ],
+    "abstract": false
+  },
+  "424": {
+    "label": "Transport Hubs",
+    "parents": [
+      "415"
+    ],
+    "abstract": false
+  },
+  "425": {
+    "label": "Airports",
+    "parents": [
+      "424"
+    ],
+    "abstract": false
+  },
+  "426": {
+    "label": "Bus Stations",
+    "parents": [
+      "424"
+    ],
+    "abstract": false
+  },
+  "427": {
+    "label": "Heliports",
+    "parents": [
+      "424"
+    ],
+    "abstract": false
+  },
+  "428": {
+    "label": "Ports",
+    "parents": [
+      "424"
+    ],
+    "abstract": false
+  },
+  "429": {
+    "label": "Rail Stations",
+    "parents": [
+      "424"
+    ],
+    "abstract": false
+  },
+  "430": {
+    "label": "Travel",
+    "parents": [
+      "1"
+    ],
+    "abstract": false
+  },
+  "431": {
+    "label": "Cruises",
+    "parents": [
+      "430"
+    ],
+    "abstract": false
+  },
+  "432": {
+    "label": "Lodging",
+    "parents": [
+      "430"
+    ],
+    "abstract": false
+  },
+  "433": {
+    "label": "Bed and Breakfasts",
+    "parents": [
+      "432"
+    ],
+    "abstract": false
+  },
+  "434": {
+    "label": "Cottages and Cabins",
+    "parents": [
+      "432"
+    ],
+    "abstract": false
+  },
+  "435": {
+    "label": "Hostels",
+    "parents": [
+      "432"
+    ],
+    "abstract": false
+  },
+  "436": {
+    "label": "Hotels and Motels",
+    "parents": [
+      "432"
+    ],
+    "abstract": false
+  },
+  "437": {
+    "label": "Lodges and Vacation Rentals",
+    "parents": [
+      "432"
+    ],
+    "abstract": false
+  },
+  "438": {
+    "label": "Resorts",
+    "parents": [
+      "432"
+    ],
+    "abstract": false
+  },
+  "439": {
+    "label": "Tourist Information and Services",
+    "parents": [
+      "430"
+    ],
+    "abstract": false
+  },
+  "440": {
+    "label": "Travel Agents and Tour Operators",
+    "parents": [
+      "430"
+    ],
+    "abstract": false
+  },
+  "441": {
+    "label": "Geriatrics",
+    "parents": [
+      "83"
+    ],
+    "abstract": false
+  },
+  "442": {
+    "label": "Discount Stores",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "443": {
+    "label": "Meat and Seafood",
+    "parents": [
+      "149"
+    ],
+    "abstract": false
+  },
+  "444": {
+    "label": "Office Supplies",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "445": {
+    "label": "Party Supplies",
+    "parents": [
+      "123"
+    ],
+    "abstract": false
+  },
+  "446": {
+    "label": "Career Counseling",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "447": {
+    "label": "Construction",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "448": {
+    "label": "Notary",
+    "parents": [
+      "269"
+    ],
+    "abstract": false
+  },
+  "449": {
+    "label": "Photography",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "450": {
+    "label": "Translation Services",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "451": {
+    "label": "Golf Courses",
+    "parents": [
+      "382"
+    ],
+    "abstract": false
+  },
+  "452": {
+    "label": "Surfing",
+    "parents": [
+      "408"
+    ],
+    "abstract": false
+  },
+  "453": {
+    "label": "Embassies",
+    "parents": [
+      "37"
+    ],
+    "abstract": false
+  },
+  "454": {
+    "label": "Infrastructure",
+    "parents": [
+      "460"
+    ],
+    "abstract": false
+  },
+  "455": {
+    "label": "Mobile",
+    "parents": [
+      "460"
+    ],
+    "abstract": false
+  },
+  "456": {
+    "label": "Advertising",
+    "parents": [
+      "460"
+    ],
+    "abstract": false
+  },
+  "457": {
+    "label": "Asian",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "458": {
+    "label": "Food Trucks",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "459": {
+    "label": "Rest Areas",
+    "parents": [
+      "415"
+    ],
+    "abstract": false
+  },
+  "460": {
+    "label": "Technology",
+    "parents": [
+      "177"
+    ],
+    "abstract": false
+  },
+  "461": {
+    "label": "Dog Parks",
+    "parents": [
+      "118"
+    ],
+    "abstract": false
+  },
+  "462": {
+    "label": "International Airports",
+    "parents": [
+      "425"
+    ],
+    "abstract": false
+  },
+  "463": {
+    "label": "Arcades",
+    "parents": [
+      "317"
+    ],
+    "abstract": false
+  },
+  "464": {
+    "label": "International",
+    "parents": [
+      "347"
+    ],
+    "abstract": false
+  },
+  "465": {
+    "label": "Convention Centers",
+    "parents": [
+      "217"
+    ],
+    "abstract": false
+  },
+  "466": {
+    "label": "Optometrist",
+    "parents": [
+      "62"
+    ],
+    "abstract": false
+  },
+  "467": {
+    "label": "NoExport",
+    "parents": [
+      "1"
+    ],
+    "abstract": false
+  }
+}

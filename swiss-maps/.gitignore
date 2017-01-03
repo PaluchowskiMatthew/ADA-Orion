@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+/geo
+/tif
+/shp
+/topo
+/downloads
+/build
+/svg
