@@ -28,14 +28,21 @@ function initmaps() {
     mapZurich.addLayer(osmZurich);
 
     // Add quartiers overlay
-    var quartiersLausanne = new L.GeoJSON.AJAX("js/quartiers_lausanne.geojson");       
+    var quartiersLausanne = new L.GeoJSON.AJAX("js/quartiers_lausanne.geojson", 
+        { onEachFeature: function(feature, layer) {
+            layer.on('click', function(e) {
+                // Do whatever you want here, when the polygon is clicked.
+                confirm('Polygon ready to take orders!');
+                console.log(feature);
+            });
+        }
+    });
     quartiersLausanne.addTo(mapLausanne);
 
     // Add quartiers overlay
     var quartiersZurich = new L.GeoJSON.AJAX("js/quartiers_zurich.geojson");       
     quartiersZurich.addTo(mapZurich);
 
-    // 
 }
 
 initmaps()
