@@ -66,7 +66,6 @@ function initmap(map, city){
 
     function resetHighlight(e) {
         quartiersLayer.resetStyle(e.target);
-
         info.update();
     }
 
@@ -74,11 +73,20 @@ function initmap(map, city){
         map.fitBounds(e.target.getBounds());
     }
 
+    function clickFeature(e) {
+        zoomToFeature(e);
+
+        // Do whatever you want here, when the polygon is clicked.
+        confirm('Polygon ready to take orders!');
+        console.log(feature);
+        layer.setStyle({fillColor: '#ff0000'});
+    }
+
     function onEachFeature(feature, layer) {
         layer.on({
             mouseover: highlightFeature,
             mouseout: resetHighlight,
-            click: zoomToFeature
+            click: clickFeature
         });
     }
 
