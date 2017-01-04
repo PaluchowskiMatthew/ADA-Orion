@@ -34,13 +34,23 @@ function initmaps() {
                 // Do whatever you want here, when the polygon is clicked.
                 confirm('Polygon ready to take orders!');
                 console.log(feature);
+                layer.setStyle({fillColor: '#ff0000'});
+
             });
         }
     });
     quartiersLausanne.addTo(mapLausanne);
 
     // Add quartiers overlay
-    var quartiersZurich = new L.GeoJSON.AJAX("js/quartiers_zurich.geojson");       
+    var quartiersZurich = new L.GeoJSON.AJAX("js/quartiers_zurich.geojson", 
+        { onEachFeature: function(feature, layer) {
+            layer.on('click', function(e) {
+                // Do whatever you want here, when the polygon is clicked.
+                confirm('Polygon ready to take orders!');
+                console.log(feature);
+            });
+        }
+    });       
     quartiersZurich.addTo(mapZurich);
 
 }
