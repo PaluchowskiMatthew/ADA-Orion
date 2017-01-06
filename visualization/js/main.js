@@ -1,118 +1,84 @@
+var mapLausanne;
+var mapZurich;
 var ajaxRequest;
 var plotlist;
 var plotlayers=[];
-var geojsonLausanne;
-var geoJsonZurich;
-var mapL;
-var mapZ;
 
-lausanne = {
-    name: 'map-lausanne',
-    startPos: [46.5522464,6.6528379],
-    zoom: 13,
-    quartiers: "js/quartiers_lausanne.json",
-};
+function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+}
 
-zurich = {
-    name: 'map-zurich',
-    startPos: [47.379991,8.530877],
-    zoom: 13,
-    quartiers: "js/quartiers_zurich.json",
-};
+function initmaps() {
+    console.log("Hello, Westworld!")
+    // set up the maps
+    mapLausanne = new L.map('map-lausanne');
+    mapZurich = new L.map('map-zurich');
 
-function osmLayer() {
+	// Set start positions
+	mapLausanne.setView([46.5522464,6.6528379], 13);
+    mapZurich.setView([47.379991,8.530877], 13);
+
+    zh_to_laus = [7, 14,  8,  8,  5, 15,  5,  5, 15,  7,  8,  5,  8, 10,  1,  0,  2, 5, 11,  1, 13,  0,  0,  7,  7, 11, 11,  3,  0, 13, 13, 13,  4,  4]
+    laus_to_zh = [28, 19, 19, 27,  7, 19, 23,  9,  2, 19, 19, 19, 11, 29,  1, 26,  7, 29]
+
+    // Add openstreetmap layer
     var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
-    var osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 12, attribution: osmAttrib});
+    var osmLausanne = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 12, attribution: osmAttrib});		
+    var osmZurich = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 12, attribution: osmAttrib});		
 
-    return osm
-}
+	mapLausanne.addLayer(osmLausanne);
+    mapZurich.addLayer(osmZurich);
 
-function style(feature) {
-    return {
-        //fillColor: getColor(feature.properties.density),
-        fillColor: '#FEB24C',
-        weight: 1,
-        opacity: 1,
-        color: 'white',
-        dashArray: '3',
-        fillOpacity: 0.5
-    };
-}
+    // Reference carrier for layers
+    laus_idx = []
+    zh_idx = []
 
-function initmap(map, city){
-    map = L.map(city.name).setView(city.startPos, city.zoom);
-	
-    // Add OpenStreetMap layer
-    map.addLayer(osmLayer());
-
-    // EventHandlers
-    function highlightFeature(e) {
-        var layer = e.target;
-
-        layer.setStyle({
-            weight: 3,
-            color: '#666',
-            dashArray: '',
-            fillOpacity: '0.5'
-        });
-
-        if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-            layer.bringToFront();
+    function resetPolygons(){ 
+    all_layers = zh_idx.concat(laus_idx);
+    for(var lref in all_layers){
+        all_layers[lref].setStyle({fillColor: '#FFFFFF'});
         }
-
-        info.update(layer.feature.properties);
     }
 
-    function resetHighlight(e) {
-        quartiersLayer.resetStyle(e.target);
-        info.update();
-    }
-
-    function zoomToFeature(e) {
-        map.fitBounds(e.target.getBounds());
-    }
-
-    function clickFeature(e) {
-        zoomToFeature(e);
-
-        // Do whatever you want here, when the polygon is clicked.
-        confirm('Polygon ready to take orders!');
-        console.log(feature);
-        layer.setStyle({fillColor: '#ff0000'});
-    }
-
-    function onEachFeature(feature, layer) {
-        layer.on({
-            mouseover: highlightFeature,
-            mouseout: resetHighlight,
-            click: clickFeature
-        });
-    }
 
     // Add quartiers overlay
-    quartiersLayer = L.geoJson.ajax(city.quartiers, {
-        style: style,
-        onEachFeature: onEachFeature
-    }).addTo(map);
+    var quartiersLausanne = new L.GeoJSON.AJAX("js/quartiers_lausanne.geojson", 
+        { onEachFeature: function(feature, layer) {
+            laus_idx.push(layer);
 
-    console.log(quartiersLayer)
+            layer.on('click', function(e) {
+                resetPolygons()
 
-    // Custom info control
-    var info = L.control();
+                origin = laus_idx.indexOf(layer);
+                target = laus_to_zh[origin];
+                leaf_target = zh_idx[target];
+                layer.setStyle({fillColor: '#00ff00'});
+                leaf_target.setStyle({fillColor: '#ff0000'});
+            });
+        }
+    });
+    quartiersLausanne.addTo(mapLausanne);
 
-    info.onAdd = function (map) {
-        this._div = L.DomUtil.create('div', 'info');
-        this.update();
-        return this._div;
-    };
+   
+    // Add quartiers overlay
+    var quartiersZurich = new L.GeoJSON.AJAX("js/quartiers_zurich.geojson", 
+        { onEachFeature: function(feature, layer) {
+            zh_idx.push(layer);
 
-    info.update = function (props) {
-        this._div.innerHTML = '<h4>Quartier: </h4>' + (props ? '<b>' + props.Quartiername + '</b>' : 'Hoover over a quartier')
-    }
+            layer.on('click', function(e) {
+                resetPolygons()
 
-    info.addTo(map);
+                origin = zh_idx.indexOf(layer)
+                target = zh_to_laus[origin]
+                leaf_target = laus_idx[target]
+                layer.setStyle({fillColor: '#00ff00'});
+                leaf_target.setStyle({fillColor: '#ff0000'});
+            });
+        }
+    });
+    quartiersZurich.addTo(mapZurich);
+
 }
 
-initmap(mapL, lausanne);
-initmap(mapZ, zurich);
+initmaps()
