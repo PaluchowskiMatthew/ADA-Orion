@@ -23,7 +23,15 @@
     color: #777;
 }
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 input[type="radio"]{
   margin: 0 10px 0 10px;
 }
+
+
 
