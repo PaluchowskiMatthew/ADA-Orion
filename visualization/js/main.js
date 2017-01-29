@@ -61,6 +61,7 @@ function initmaps() {
       layer.setStyle({fillColor: '#00ff00'});
       leaf_target.setStyle({fillColor: '#ff0000'});
       lausanneInfo.update(layer.feature.properties);
+      currentLausanneLayer = layer._leaflet_id
       zurichInfo.update(leaf_target.feature.properties)
     });
     layer._leaflet_id = feature.id;
@@ -78,7 +79,6 @@ lausanneInfo.onAdd = function (map) {
 
 lausanneInfo.update = function (props) {
   this._div.innerHTML = '<h4>Quartier: </h4>' + (props ? '<b>' + props.Name + '</b>' : 'Click a quartier')
-  currentLausanneLayer = props ? props["NUMQUARTIER"] : null
 }
 
 // Add quartiers overlay
