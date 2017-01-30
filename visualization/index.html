@@ -95,7 +95,7 @@
       <div class="row featurette">
         <div class="col-md-8">
           <h2 class="featurette-heading">Data aquisition</h2>
-        <p class="lead">In order to map the neighborhoods, we needed to get some data that were comparable across cities, that were geotagged, and openly available. We decided to make our prototype based on the localization of for instance resturants and other venues, landmarks and sport arenas. The gathering of this data prooved to be harder than expected, as our source was restricted in terms of number of results in an area and rate limitations. We tackled the problem by querying <a href src="http://developer.factual.com/">Factual Places API</a> in a uniform grid such that the number of queries were minimized, while still obtaining all places.</p>
+        <p class="lead">In order to map the neighborhoods, we needed to get some data that were comparable across cities, that were geotagged, and openly available. We decided to make our prototype based on the localization of for instance resturants and other venues, landmarks and sport arenas. The gathering of this data prooved to be harder than expected, as our source was restricted in terms of number of results in an area and rate limitations. We tackled the problem by querying <a href src="http://developer.factual.com/">Factual Places API</a> in a uniform grid such that the number of queries were minimized, while still obtaining all places. Further we have programmed the crawler to walk the defined area in a spiral fashion to make sure to retrieve the most important areas first and set a prioritiy path in case of unexpected interruption.</p>
         </div>
         <div class="col-md-4">
           <img class="featurette-image img-responsive center-block" data-src="img/bigdata-512.png" alt="Data aquisition" src="img/bigdata-512.png">
@@ -105,7 +105,7 @@
       <div class="row featurette">
         <div class="col-md-8">
           <h2 class="featurette-heading">Preprocessing</h2>
-          <p class="lead">After gathering the data, we had to assign each place to a neighborhood. As there are no publically available geodata on neighborhoods in Switzerland, we spent some time crawling the web for this information.
+          <p class="lead">After gathering the data, we had to assign each place to a neighborhood. As there are no publicly available geodata on neighborhoods in Switzerland, we spent some time crawling the web for this information.
             In the end we found custom google maps overlays, which after convertion we were able to use as geojson. We then had the limits of each neighborhood as geographical coordinates, and we could just map each 
             venue to their neighborhood. The next steps consisted of finding good features for the model to base the predictions on, the details of this process can be found in a jupyter notebook at <a href="https://github.com/PaluchowskiMatthew/ADA-Orion/blob/master/Lausanne%20%26%20Zurich%20places.ipynb">github.com</a>
           </p>
@@ -115,9 +115,22 @@
         </div>
       </div>
       <hr class="featurette-devider">
+      <div class="row featurette">
+        <div class="col-md-8">
+          <h2 class="featurette-heading">Descriptors</h2>
+          <p class="lead">In order to extract meaniningful and descriptive information for a particular neighborhood, we have decided to use venue densities. Since from the used API we had a selection of 440 different venue types available, which can be found <a href="http://developer.factual.com/working-with-categories/#taxonomy">here</a>.
+           We have created different descriptor vectors that can be selected via radio button above (All Places, Landmarks, Fastfood, Travel, Sports). These descriptor vectors consist of a normalized frequency analysis of a set of described venue types within that particular neighborhood.
+           It is these feature vectors that are ultimatley being compared in order to find a best matching as described in the next section.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="featurette-image img-responsive center-block" data-src="" alt="Preprocessing" src="img/18_file_processing-512.png" data-holder-rendered="true">
+        </div>
+      </div>
+      <hr class="featurette-devider">
       <div class="row featurette space" style="display: flex; align-items: center">
         <div class="col-md-8">
-          <h2 class="featurette-heading">Matching the neighborhoods</h2>
+          <h2 class="featurette-heading">Matching</h2>
           <p class="lead"> 
             In order to find a best matching between a freely chosen neighborhood and its corresponding descriptor $\vec n_i^A$ from the origin city $A$ and a corresponding target neighborhood with descriptor $\vec n_j^B$ in the target city $B$ we will be mapping to the closest descriptor in the target city as follows:
             $$ \| \vec n_i^A - \vec n_j^B \|^2 \leq  \| \vec n_i^A - \vec n_k^B \|^2  \quad \forall k \neq j $$
@@ -131,6 +144,17 @@
         </div>
         <div class="col-md-4">
           <img class="featurette-image img-responsive " style="vertical-align: middle;" data-src="" alt="Preprocessing" src="img/35_deep_learning_algorithm-512.png" data-holder-rendered="true">
+        </div>
+      </div>
+      <hr class="featurette-devider">
+      <div class="row featurette">
+        <div class="col-md-8">
+          <h2 class="featurette-heading">Viszualization</h2>
+          <p class="lead">The final neighborhood mappings are subsequently visualized on their respective communal defined polygons using <a href="http://leafletjs.com/">leaflet</a> maps that have been enhanced to provide the needed interactivity.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="featurette-image img-responsive center-block" data-src="" alt="Preprocessing" src="img/18_file_processing-512.png" data-holder-rendered="true">
         </div>
       </div>
 
