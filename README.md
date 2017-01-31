@@ -1,5 +1,5 @@
 # Twinhoods project
-Repository of [ADA](http://ada.epfl.ch/) project [Twinhoods](paluchowskimatthew.github.io) of team ADA-Orion:
+Repository of [ADA](http://ada.epfl.ch/) project [Twinhoods](http://paluchowskimatthew.github.io) of team ADA-Orion:
 * [Kristian Aurlien](https://github.com/aurlien)
 * [Mateusz Paluchowski](https://github.com/PaluchowskiMatthew)
 * [Christian Tresch](https://github.com/raccc)
